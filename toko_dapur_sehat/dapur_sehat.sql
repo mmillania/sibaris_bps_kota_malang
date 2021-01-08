@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 08, 2021 at 04:23 PM
+-- Generation Time: Jan 08, 2021 at 01:03 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.4
 
@@ -44,8 +44,7 @@ CREATE TABLE `tb_barang` (
 
 INSERT INTO `tb_barang` (`id_barang`, `kode_barang`, `nama_barang`, `jumlah`, `satuan`, `id_ruang`, `keadaan`, `keterangan`) VALUES
 (1, '305635275', 'Lemari Besi', 1, 'buah', 1, 'Baik', 'Telah diterima 7 Januari 2021'),
-(2, '3862324', 'PC Unit', 4, 'buah', 2, 'Rusak Ringan', 'Sering kali mengalami blue screen'),
-(14, '3465643', 'meja', 5, 'Buah', 1, 'Baik', '');
+(2, '3862324', 'PC Unit', 4, 'buah', 2, 'Rusak Ringan', 'Sering kali mengalami blue screen');
 
 -- --------------------------------------------------------
 
@@ -252,7 +251,7 @@ ALTER TABLE `tb_user`
 -- AUTO_INCREMENT for table `tb_barang`
 --
 ALTER TABLE `tb_barang`
-  MODIFY `id_barang` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id_barang` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `tb_blog`
