@@ -78,8 +78,9 @@
             <div class="form-group">
             <label>Ruang</label>
             <select class="form-control" name="id_ruang">
-              <option>Ruang Tehnis</option>
-              <option>Ruang Perpustakaan</option>
+              <?php foreach($ruang as $r):?>
+              <option value="<?= $r['id_ruang']?>"><?= $r['uraian_ruang']?></option>
+              <?php endforeach; ?>
             </select>
             </div>
 

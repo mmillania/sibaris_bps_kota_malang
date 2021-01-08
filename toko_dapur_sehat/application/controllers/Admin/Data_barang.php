@@ -15,11 +15,13 @@ class Data_barang extends CI_Controller {
         </div>');
         
         redirect('Auth/login');
-        
+        $this->load->model('Model_ruang');
+        $this->load->model('Model_barang');
         }
     }
     public function index(){
         $data['barang'] = $this->Model_barang->tampil_data()->result();
+        $data['ruang'] = $this->Model_ruang->tampil_data()->result();
         $this->load->view('templates_admin/header');
         $this->load->view('templates_admin/sidebar');
         $this->load->view('Admin/Data_barang', $data);

@@ -1,5 +1,5 @@
 <div class="container-fluid">
-    <button class="btn btn-sm btn-primary mb-3" data-toggle="modal" data-target="#Tambah_barang" ><i class="fas fa-plus fa-sm"></i>Tambah Blog</button>
+    <button class="btn btn-sm btn-primary mb-3" data-toggle="modal" data-target="#Tambah_blog" ><i class="fas fa-plus fa-sm"></i>Tambah Blog</button>
 
     <table class="table table-bordered">
     <tr>
@@ -32,7 +32,7 @@
 
 
 <!-- Modal -->
-<div class="modal fade" id="Tambah_barang" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="Tambah_blog" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
