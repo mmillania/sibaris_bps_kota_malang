@@ -16,6 +16,12 @@ class Model_barang extends CI_Model
         return $query->result_object();
     }
 
+    public function tampil_data_barang_by_id($id)
+    {
+        $query = $this->db->query("SELECT * FROM tb_barang b JOIN tb_ruang r ON b.id_ruang=r.id_ruang WHERE b.id_barang = $id");
+        return $query->result_object();
+    }
+
     public function tambah_barang($data, $table)
     {
         $this->db->insert($table, $data);

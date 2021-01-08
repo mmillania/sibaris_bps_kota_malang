@@ -26,11 +26,19 @@
 </div>
 
 
+<!-- <div class="container-fluid">
+<h3>Data Barang</h3> -->
+    <!-- <table class="table table-bordered">
+    <tr>
+    <td>No</td>
+    <th>Ruang</th>
+    <th>Detail Barang</th>
+    </tr>
 
-<div class="row text-center mt-3">
-  <?php foreach ($barang as $brg) : ?>
+    <?php
+    $no=1; foreach ($barang as $brg) : ?> 
 
-  <div class="card ml-3 mb-3" style="width: 16rem;">
+  <!-- <div class="card ml-3 mb-3" style="width: 16rem;">
   <img src="<?php echo base_url().'/uploads/'.$brg->gambar ?>" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title mb-1"><?php echo $brg->nama_brg ?></h5>
@@ -41,6 +49,7 @@
 
     <?php echo anchor('Dashboard_akhir/detail/' .$brg->id_brg, '<div class="btn btn-sm btn-success">Detail</div>') ?>
   </div>
-</div>
+</div> -->
 
   <?php endforeach; ?>
+</div>

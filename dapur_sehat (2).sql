@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 08, 2021 at 04:23 PM
+-- Generation Time: Jan 08, 2021 at 06:50 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.4
 
@@ -43,9 +43,9 @@ CREATE TABLE `tb_barang` (
 --
 
 INSERT INTO `tb_barang` (`id_barang`, `kode_barang`, `nama_barang`, `jumlah`, `satuan`, `id_ruang`, `keadaan`, `keterangan`) VALUES
-(1, '305635275', 'Lemari Besi', 1, 'buah', 1, 'Baik', 'Telah diterima 7 Januari 2021'),
-(2, '3862324', 'PC Unit', 4, 'buah', 2, 'Rusak Ringan', 'Sering kali mengalami blue screen'),
-(14, '3465643', 'meja', 5, 'Buah', 1, 'Baik', '');
+(1, '305635275', 'Lemari Besi', 1, 'Buah', 1, 'Baik', 'Telah diterima 7 Januari 2021'),
+(2, '3862324', 'PC Unit', 4, 'Buah', 2, 'Rusak Berat', 'Sering kali mengalami blue screen'),
+(14, '3465643', 'meja', 5, 'Buah', 1, 'Baik', 'bagus');
 
 -- --------------------------------------------------------
 
